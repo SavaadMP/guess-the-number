@@ -1,6 +1,8 @@
 import GameBoard from "./Components/GameBoard";
 
 const App = () => {
+  const secretNumber = Math.floor(Math.random() * 100);
+
   return (
     <>
       <header className="container">
@@ -23,7 +25,7 @@ const App = () => {
         </div>
       </div>
 
-      <GameBoard />
+      <GameBoard generatedNumber={secretNumber} />
     </>
   );
 };

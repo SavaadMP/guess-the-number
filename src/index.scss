@@ -11,15 +11,9 @@ body {
   background: hsl(212, 45%, 89%);
 }
 
-.container {
-  max-width: 1400px;
-  width: 100%;
-  margin: auto;
-  padding: 20px;
-}
-
 header {
   text-align: right;
+  margin: 20px;
 
   h1 {
     letter-spacing: 1px;
@@ -27,9 +21,11 @@ header {
 }
 
 .instructions {
+  padding: 20px;
+  margin: 20px;
   background: hsl(0, 0%, 100%);
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 
   h2 {
     color: #1f3251;
