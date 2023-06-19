@@ -1,0 +1,66 @@
+.gameBoard {
+  background: white;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+
+  .input__area {
+    display: flex;
+
+    input {
+      padding: 10px;
+      font-weight: bold;
+      margin-right: 10px;
+      width: 100%;
+      font-size: 15px;
+    }
+
+    button {
+      padding: 10px 20px;
+      cursor: pointer;
+      background: #1a76ff;
+      border: none;
+      color: white;
+      font-size: 15px;
+      border-radius: 2px;
+      transition: all 0.1s ease-in-out;
+
+      &:hover {
+        background: #5390ea;
+      }
+    }
+  }
+
+  .input__hints {
+    padding: 20px;
+
+    .hint {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      color: red;
+
+      i {
+        margin-right: 5px;
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .result {
+    padding: 10px;
+    background: hsl(0, 44%, 46%);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+  }
+
+  .turns__left {
+    padding: 0 20px;
+    text-align: right;
+  }
+}

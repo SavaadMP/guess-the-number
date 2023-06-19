@@ -6,3 +6,42 @@
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
 }
+
+body {
+  background: hsl(212, 45%, 89%);
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: right;
+
+  h1 {
+    letter-spacing: 1px;
+  }
+}
+
+.instructions {
+  background: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+  h2 {
+    color: #1f3251;
+  }
+
+  .points {
+    margin-top: 10px;
+
+    p {
+      color: #7b879d;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+  }
+}
